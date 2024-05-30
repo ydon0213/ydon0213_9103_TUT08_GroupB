@@ -22,8 +22,4 @@ My inspiration comes from TeamLab, whose installations, such as those at TeamLab
 
 ### Technical Explanation
 
-The setInterval(updateColors, 1000) is used to update colors every second, creating the animation effect.
-
-Each circle type (medium, border, and big) has an updateColors method. This method is called every second by updateColors, which iterates over all instances and updates their colors.
-
-Each class has a generateColours or similar method to create arrays of random colors.
+The animation effect is achieved using setInterval(updateColors, 1000), which updates colors every second. Each circle type (medium, border, and big) has an updateColors method. This method is called every second by updateColors, iterating over all instances and updating their colors. Each class has a generateColours or similar method to create arrays of random colors.
