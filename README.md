@@ -23,3 +23,5 @@ My inspiration comes from TeamLab, whose installations, such as those at TeamLab
 ### Technical Explanation
 
 The animation effect is achieved using setInterval(updateColors, 1000), which updates colors every second. Each circle type (medium, border, and big) has an updateColors method. This method is called every second by updateColors, iterating over all instances and updating their colors. Each class has a generateColours or similar method to create arrays of random colors.
+
+[setInterval](https://developer.mozilla.org/en-US/docs/Web/API/setInterval)
